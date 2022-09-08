@@ -20,7 +20,6 @@ if (svar == "nej")
     Console.WriteLine("Du kommer hem men du var borta för länge, någon har stulit allt du har");
    Console.WriteLine("");
     Console.WriteLine("THEFT ENDING");
-    Console.ReadLine();
 }
 else if (svar =="ja") 
 {
@@ -29,23 +28,22 @@ else if (svar =="ja")
 
     svar = Console.ReadLine();
     svar = svar.ToLower();
-}
 
-
-    if (svar2 =="ja")
+    if (svar =="ja")
     {
         Console.WriteLine("Manen tackade dig och du gick in i ditt hus");
         Console.WriteLine("Du kom hem och märkte nån har snott din säng åtminstonde men du är hemma");
         Console.WriteLine("GOOD ENDING");
     }
-    else if (svar2 =="nej")
+    else if (svar =="nej")
     {
         Console.WriteLine("Du låtsas inte se honom och går förbi");
         Console.WriteLine("När du vänder ryggen så attackerar manen i ilska");
         Console.WriteLine("Du knockas ner till marken och farsta gaffeln åker in i magen");
         Console.WriteLine("BAD ENDING");
     }
-    
+}
+
 Console.ReadLine();
 
 
