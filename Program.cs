@@ -1,10 +1,4 @@
 ﻿using System.Globalization;
-//Console.WriteLine("Hej, Vad heter du?");
-//string name = Console.ReadLine();
-//Console.WriteLine($"Hej {name}");
-//-------------------------------------------------------
-
-
 string svar = "";
 
 Console.WriteLine("Det är en grå dag i Farsta, solen gömd bakom molnen och gatulamporna snodda");
@@ -21,7 +15,7 @@ if (svar == "nej")
    Console.WriteLine("");
     Console.WriteLine("THEFT ENDING");
 }
-else if (svar =="ja") 
+else if (svar =="ja")
 {
      Console.WriteLine("Du kommer fram till pundaren och han säger Hej Hej och skakar på sin kopp");
      Console.WriteLine("Ger du han din växel från när du köpte maten?");
@@ -45,5 +39,3 @@ else if (svar =="ja")
 }
 
 Console.ReadLine();
-
-
